@@ -19,8 +19,7 @@ public class ClimbingLeaderboard {
                 int count =0;
                 for(; b< a1.length; b++){
                     count++;
-                    if (score[v]<a1[b]){
-                        System.out.println("index "+v + " value "+ score[v] + " is less than " + a1[b]);
+                    if (score[v]<a1[b]){   
                         pos.add(a1.length+1-b);
                         break;
                     }
